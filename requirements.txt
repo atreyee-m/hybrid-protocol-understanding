@@ -3,3 +3,4 @@ python-dotenv
 pandas
 anthropic
 PyPDF2
+PyMuPDF
