@@ -1,3 +1,5 @@
+from datetime import datetime
+import json
 import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()  
@@ -46,3 +48,15 @@ if "result" in st.session_state:
                 st.markdown(f"**Objective:** {obj.get('objective_text','')}")
                 if obj.get("endpoints"):
                     st.dataframe(pd.DataFrame(obj["endpoints"]))
+    # Download JSON
+    st.divider()
+
+    json_str = json.dumps(result, indent=2)
+    protocol_name = st.session_state.get('protocol_name', 'protocol')
+
+    st.download_button(
+        label="Download Results (JSON)",
+        data=json_str,
+        file_name=f"{protocol_name}_extraction_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+        mime="application/json"
+        )
