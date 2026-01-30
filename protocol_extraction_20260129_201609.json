@@ -1,0 +1,92 @@
+{
+  "objectives": [
+    {
+      "objective_type": "Primary",
+      "objective_text": "To evaluate the safety and tolerability of BNT162b3 vaccine in healthy adults aged 18 to 55 years and 56 to 85 years",
+      "endpoints": [
+        {
+          "endpoint_name": "Solicited local reactions",
+          "endpoint_definition": "Local reactions at the injection site including pain, tenderness, erythema/redness, induration/swelling",
+          "measurement_method": "Subject diary reporting and investigator assessment using FDA Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Clinical Trials",
+          "timepoint": "Up to 7 days after each immunization (prime and boost)",
+          "endpoint_type": "Primary"
+        },
+        {
+          "endpoint_name": "Solicited systemic reactions",
+          "endpoint_definition": "Systemic reactions including nausea, vomiting, diarrhea, headache, fatigue, myalgia, arthralgia, chills, loss of appetite, malaise, and fever (\u226538\u00b0C)",
+          "measurement_method": "Subject diary reporting using FDA Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Clinical Trials",
+          "timepoint": "Up to 7 days after each immunization (prime and boost)",
+          "endpoint_type": "Primary"
+        },
+        {
+          "endpoint_name": "Treatment-emergent adverse events (TEAEs)",
+          "endpoint_definition": "Any adverse event with onset date on or after the first administration of IMP or worsened after the first administration of IMP",
+          "measurement_method": "Investigator assessment and reporting using MedDRA coding system, graded by severity (Grade 1-4)",
+          "timepoint": "Up to 28 days after each immunization (prime and boost); up to Visit 7 (approximately 6 months after last immunization)",
+          "endpoint_type": "Primary"
+        },
+        {
+          "endpoint_name": "Serious adverse events (SAEs)",
+          "endpoint_definition": "Any untoward medical occurrence that results in death, is life-threatening, requires hospitalization or prolongation of existing hospitalization, results in persistent disability/incapacity, is a congenital anomaly or birth defect, or is a medically important event",
+          "measurement_method": "Investigator assessment and reporting within 24 hours of learning of the event",
+          "timepoint": "From Visit 0 (screening) until Visit 7; after Visit 7 only IMP-related SAEs collected through Visit 9",
+          "endpoint_type": "Primary"
+        },
+        {
+          "endpoint_name": "Dose limiting toxicity (DLT)",
+          "endpoint_definition": "Specific events including anaphylactic reaction, generalized urticaria, severe unsolicited local events, Grade 4 AEs, systemic SAEs within 7 days, fever >40.0\u00b0C, or two subjects with same severe AE within 7 days",
+          "measurement_method": "Investigator assessment according to predefined DLT criteria",
+          "timepoint": "Within 7 days of vaccination",
+          "endpoint_type": "Primary"
+        }
+      ]
+    },
+    {
+      "objective_type": "Secondary",
+      "objective_text": "To evaluate the immunogenicity of BNT162b3 vaccine in healthy adults",
+      "endpoints": [
+        {
+          "endpoint_name": "SARS-CoV-2 neutralizing antibody titers",
+          "endpoint_definition": "Serum neutralizing antibody titers against SARS-CoV-2",
+          "measurement_method": "Immunogenicity assessments from blood samples",
+          "timepoint": "Multiple timepoints as specified in Schedule of Activities (baseline, post-prime, post-boost, and follow-up visits)",
+          "endpoint_type": "Secondary"
+        },
+        {
+          "endpoint_name": "SARS-CoV-2 binding antibody levels",
+          "endpoint_definition": "Serum binding antibody levels against SARS-CoV-2 antigens",
+          "measurement_method": "Immunogenicity assessments from blood samples",
+          "timepoint": "Multiple timepoints as specified in Schedule of Activities",
+          "endpoint_type": "Secondary"
+        },
+        {
+          "endpoint_name": "Cell-mediated immune response",
+          "endpoint_definition": "T-cell responses to SARS-CoV-2 antigens",
+          "measurement_method": "Analysis of peripheral blood mononuclear cells (PBMCs) for T-cell responses",
+          "timepoint": "Multiple timepoints as specified in Schedule of Activities",
+          "endpoint_type": "Secondary"
+        }
+      ]
+    },
+    {
+      "objective_type": "Exploratory",
+      "objective_text": "To explore biomarkers and additional immunological parameters related to BNT162b3 vaccination",
+      "endpoints": [
+        {
+          "endpoint_name": "Exploratory biomarkers",
+          "endpoint_definition": "Various biomarkers and immunological parameters for exploratory research purposes",
+          "measurement_method": "Blood sample analysis including up to 5 additional blood draws (up to 200 mL total) for biomarker/immunogenicity research",
+          "timepoint": "Multiple timepoints as specified in Schedule of Activities over approximately 16 months",
+          "endpoint_type": "Exploratory"
+        },
+        {
+          "endpoint_name": "T-cell receptor profiling",
+          "endpoint_definition": "Profiling of T-cell receptors (TCRs) in peripheral blood after vaccination",
+          "measurement_method": "Next-generation sequencing of TCRs from blood samples or isolated PBMCs",
+          "timepoint": "Selected timepoints during the trial",
+          "endpoint_type": "Exploratory"
+        }
+      ]
+    }
+  ]
+}
